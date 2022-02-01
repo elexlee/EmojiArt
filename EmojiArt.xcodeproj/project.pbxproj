@@ -27,6 +27,8 @@
 		FE85B40427A5DB35000F6387 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85B40127A5DB35000F6387 /* UtilityExtensions.swift */; };
 		FE85B40527A5DB35000F6387 /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85B40227A5DB35000F6387 /* UtilityViews.swift */; };
 		FE85B40627A5DB35000F6387 /* UtilityViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85B40227A5DB35000F6387 /* UtilityViews.swift */; };
+		FE85B40827A8DB6F000F6387 /* PaletteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85B40727A8DB6F000F6387 /* PaletteStore.swift */; };
+		FE85B40927A8DB6F000F6387 /* PaletteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE85B40727A8DB6F000F6387 /* PaletteStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,7 @@
 		FE85B3F827A5CB69000F6387 /* EmojiArtDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiArtDocument.swift; sourceTree = "<group>"; };
 		FE85B40127A5DB35000F6387 /* UtilityExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
 		FE85B40227A5DB35000F6387 /* UtilityViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityViews.swift; sourceTree = "<group>"; };
+		FE85B40727A8DB6F000F6387 /* PaletteStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletteStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,7 @@
 				FE85B3B727A5C784000F6387 /* EmojiArtDocumentView.swift */,
 				FE85B3F227A5C7EE000F6387 /* EmojiArtModel.swift */,
 				FE85B3F827A5CB69000F6387 /* EmojiArtDocument.swift */,
+				FE85B40727A8DB6F000F6387 /* PaletteStore.swift */,
 				FE85B3F527A5CA66000F6387 /* EmojiArtModel.Background.swift */,
 				FE85B40127A5DB35000F6387 /* UtilityExtensions.swift */,
 				FE85B40227A5DB35000F6387 /* UtilityViews.swift */,
@@ -320,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE85B40527A5DB35000F6387 /* UtilityViews.swift in Sources */,
+				FE85B40827A8DB6F000F6387 /* PaletteStore.swift in Sources */,
 				FE85B3E027A5C785000F6387 /* EmojiArtDocumentView.swift in Sources */,
 				FE85B3DE27A5C785000F6387 /* EmojiArtApp.swift in Sources */,
 				FE85B40327A5DB35000F6387 /* UtilityExtensions.swift in Sources */,
@@ -334,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE85B40627A5DB35000F6387 /* UtilityViews.swift in Sources */,
+				FE85B40927A8DB6F000F6387 /* PaletteStore.swift in Sources */,
 				FE85B3E127A5C785000F6387 /* EmojiArtDocumentView.swift in Sources */,
 				FE85B3DF27A5C785000F6387 /* EmojiArtApp.swift in Sources */,
 				FE85B40427A5DB35000F6387 /* UtilityExtensions.swift in Sources */,

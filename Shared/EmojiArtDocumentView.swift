@@ -150,15 +150,20 @@ struct EmojiArtDocumentView: View {
         steadyStateZoomScale = min(hZoom, vZoom)
     }
     
+    @ObservedObject var paletteStore: PaletteStore
+    
     var palette: some View {
-        ScrollingEmojisView(emojis: testEmojis)
-            .font(.system(size: defaultEmojiFontSize))
+        ForEach(paletteStore.palettes) { palette in
+            ScrollingEmojisView(emojis: palette.emojis)
+        }
+        .font(.system(size: defaultEmojiFontSize))
     }
     
     let testEmojis = "👻💀☠️👽👾"
 }
 
 struct ScrollingEmojisView: View {
+    
     let emojis: String
 
     var body: some View {
@@ -175,6 +180,6 @@ struct ScrollingEmojisView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        EmojiArtDocumentView(document: EmojiArtDocument())
+        EmojiArtDocumentView(document: EmojiArtDocument(), paletteStore: PaletteStore(named: "Default"))
     }
 }
