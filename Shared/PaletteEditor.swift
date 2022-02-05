@@ -58,6 +58,7 @@ struct PaletteEditor: View {
                         }
                 }
             }
+            .font(.system(size: 40))
         }
     }
     
